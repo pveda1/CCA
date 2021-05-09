@@ -3,23 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1E51EFC264765D800AE6FC4 /* ClimateChangeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51EFB264765D800AE6FC4 /* ClimateChangeAppApp.swift */; };
+		ACF0E76F0511E05CA2F8587D /* Pods_ClimateChangeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ADD6965307DA14391774DE /* Pods_ClimateChangeApp.framework */; };
+		F1E51EFC264765D800AE6FC4 /* ClimateChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51EFB264765D800AE6FC4 /* ClimateChangeApp.swift */; };
 		F1E51EFE264765D800AE6FC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51EFD264765D800AE6FC4 /* ContentView.swift */; };
 		F1E51F00264765DD00AE6FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E51EFF264765DD00AE6FC4 /* Assets.xcassets */; };
 		F1E51F03264765DD00AE6FC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E51F02264765DD00AE6FC4 /* Preview Assets.xcassets */; };
+		F1E51F0B26476E0A00AE6FC4 /* CityStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51F0A26476E0A00AE6FC4 /* CityStats.swift */; };
+		F1E51F0D26476E2800AE6FC4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51F0C26476E2800AE6FC4 /* LocationManager.swift */; };
+		F1E51F0F26476E4700AE6FC4 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51F0E26476E4700AE6FC4 /* Maps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31789550686C3F6EB679CBAE /* Pods-ClimateChangeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateChangeApp.release.xcconfig"; path = "Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp.release.xcconfig"; sourceTree = "<group>"; };
+		BE6EF0CB0508D45529FA6324 /* Pods-ClimateChangeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateChangeApp.debug.xcconfig"; path = "Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E5ADD6965307DA14391774DE /* Pods_ClimateChangeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateChangeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E51EF8264765D800AE6FC4 /* ClimateChangeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateChangeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1E51EFB264765D800AE6FC4 /* ClimateChangeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeAppApp.swift; sourceTree = "<group>"; };
+		F1E51EFB264765D800AE6FC4 /* ClimateChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeApp.swift; sourceTree = "<group>"; };
 		F1E51EFD264765D800AE6FC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1E51EFF264765DD00AE6FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1E51F02264765DD00AE6FC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1E51F04264765DD00AE6FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E51F0A26476E0A00AE6FC4 /* CityStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityStats.swift; sourceTree = "<group>"; };
+		F1E51F0C26476E2800AE6FC4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F1E51F0E26476E4700AE6FC4 /* Maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF0E76F0511E05CA2F8587D /* Pods_ClimateChangeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		910242D25565692069E2A580 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE6EF0CB0508D45529FA6324 /* Pods-ClimateChangeApp.debug.xcconfig */,
+				31789550686C3F6EB679CBAE /* Pods-ClimateChangeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1C940B3446A84E9BB7B614C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5ADD6965307DA14391774DE /* Pods_ClimateChangeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1E51EEF264765D800AE6FC4 = {
 			isa = PBXGroup;
 			children = (
 				F1E51EFA264765D800AE6FC4 /* ClimateChangeApp */,
 				F1E51EF9264765D800AE6FC4 /* Products */,
+				910242D25565692069E2A580 /* Pods */,
+				B1C940B3446A84E9BB7B614C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +82,14 @@
 		F1E51EFA264765D800AE6FC4 /* ClimateChangeApp */ = {
 			isa = PBXGroup;
 			children = (
-				F1E51EFB264765D800AE6FC4 /* ClimateChangeAppApp.swift */,
+				F1E51EFB264765D800AE6FC4 /* ClimateChangeApp.swift */,
 				F1E51EFD264765D800AE6FC4 /* ContentView.swift */,
 				F1E51EFF264765DD00AE6FC4 /* Assets.xcassets */,
 				F1E51F04264765DD00AE6FC4 /* Info.plist */,
 				F1E51F01264765DD00AE6FC4 /* Preview Content */,
+				F1E51F0A26476E0A00AE6FC4 /* CityStats.swift */,
+				F1E51F0C26476E2800AE6FC4 /* LocationManager.swift */,
+				F1E51F0E26476E4700AE6FC4 /* Maps.swift */,
 			);
 			path = ClimateChangeApp;
 			sourceTree = "<group>";
@@ -76,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1E51F07264765DD00AE6FC4 /* Build configuration list for PBXNativeTarget "ClimateChangeApp" */;
 			buildPhases = (
+				09F183850DC60705EDF41D61 /* [CP] Check Pods Manifest.lock */,
 				F1E51EF4264765D800AE6FC4 /* Sources */,
 				F1E51EF5264765D800AE6FC4 /* Frameworks */,
 				F1E51EF6264765D800AE6FC4 /* Resources */,
+				F94E1E1BEF59B98E069567E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09F183850DC60705EDF41D61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimateChangeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94E1E1BEF59B98E069567E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1E51EF4264765D800AE6FC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E51F0D26476E2800AE6FC4 /* LocationManager.swift in Sources */,
 				F1E51EFE264765D800AE6FC4 /* ContentView.swift in Sources */,
-				F1E51EFC264765D800AE6FC4 /* ClimateChangeAppApp.swift in Sources */,
+				F1E51EFC264765D800AE6FC4 /* ClimateChangeApp.swift in Sources */,
+				F1E51F0B26476E0A00AE6FC4 /* CityStats.swift in Sources */,
+				F1E51F0F26476E4700AE6FC4 /* Maps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +344,7 @@
 		};
 		F1E51F08264765DD00AE6FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6EF0CB0508D45529FA6324 /* Pods-ClimateChangeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +366,7 @@
 		};
 		F1E51F09264765DD00AE6FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31789550686C3F6EB679CBAE /* Pods-ClimateChangeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
