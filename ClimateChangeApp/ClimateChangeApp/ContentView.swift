@@ -26,7 +26,9 @@ struct ContentView: View {
                 HStack {
                     Spacer()
                     NavigationLink(destination: Resources()) {
-                        Image("Pencil")
+                        VStack {
+                            Image("Pencil")
+                        }
                     }
                     
                 }

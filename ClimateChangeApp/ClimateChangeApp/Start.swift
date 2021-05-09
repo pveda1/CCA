@@ -12,7 +12,7 @@ struct StartView: View {
     @State var isNavigationBarHidden: Bool = true
     
     var body: some View {
-        NavigationView {
+       
             VStack {
                 Spacer()
                 Text("welcome to")
@@ -59,7 +59,7 @@ struct StartView: View {
 //                    }
                 
 //              Button Here Instead
-                NavigationLink(destination: ContentView()) {
+               // NavigationLink(destination: ContentView()) {
 //                Button(action: ContentView(), label: {
                     Text("continue →")
                         .font(.custom("Roboto-Bold", size: 20))
@@ -70,12 +70,12 @@ struct StartView: View {
                         .cornerRadius(30)
                         .padding()
 
-                }
+//                }
 //                .hiddenNavigationBarStyle()
-                .navigationBarTitle("")
-                .navigationBarHidden(true)
-                .navigationBarBackButtonHidden(true)
-        //        .opacity(0)
+//                .navigationBarTitle("")
+//                .navigationBarHidden(true)
+//                .navigationBarBackButtonHidden(true)
+//                .opacity(0)
                 
                 
                 Spacer()
@@ -83,7 +83,7 @@ struct StartView: View {
             .frame(width: 500)
             .background(Color(#colorLiteral(red: 0.95, green: 0.92, blue: 0.89, alpha: 1)))
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        }
+        
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1B7D4512648318A00D6CC78 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7D4502648318A00D6CC78 /* Icon.swift */; };
+		F1B7D457264835C400D6CC78 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B7D456264835C400D6CC78 /* LocationInfo.swift */; };
 		F1E51EFC264765D800AE6FC4 /* ClimateChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51EFB264765D800AE6FC4 /* ClimateChangeApp.swift */; };
 		F1E51EFE264765D800AE6FC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51EFD264765D800AE6FC4 /* ContentView.swift */; };
 		F1E51F00264765DD00AE6FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E51EFF264765DD00AE6FC4 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* Begin PBXFileReference section */
 		31789550686C3F6EB679CBAE /* Pods-ClimateChangeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateChangeApp.release.xcconfig"; path = "Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp.release.xcconfig"; sourceTree = "<group>"; };
 		BE6EF0CB0508D45529FA6324 /* Pods-ClimateChangeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateChangeApp.debug.xcconfig"; path = "Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B7D4502648318A00D6CC78 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		F1B7D456264835C400D6CC78 /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
 		F1E51EF8264765D800AE6FC4 /* ClimateChangeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateChangeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E51EFB264765D800AE6FC4 /* ClimateChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeApp.swift; sourceTree = "<group>"; };
 		F1E51EFD264765D800AE6FC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,17 +103,19 @@
 				F1E51EFF264765DD00AE6FC4 /* Assets.xcassets */,
 				F1E51F04264765DD00AE6FC4 /* Info.plist */,
 				F1E51F01264765DD00AE6FC4 /* Preview Content */,
-				F1E51F0A26476E0A00AE6FC4 /* CityStats.swift */,
 				F1E51F0C26476E2800AE6FC4 /* LocationManager.swift */,
 				F1E51F0E26476E4700AE6FC4 /* Maps.swift */,
+				F1B7D4502648318A00D6CC78 /* Icon.swift */,
 				F1E51F102647840800AE6FC4 /* Resources.swift */,
 				F1E51F1A2647871800AE6FC4 /* Roboto-Regular.ttf */,
 				F1E51F182647870B00AE6FC4 /* Roboto-Bold.ttf */,
+				F1E51F0A26476E0A00AE6FC4 /* CityStats.swift */,
 				F1E51F12264785A400AE6FC4 /* EnergyConservation.swift */,
 				F1E51F142647868800AE6FC4 /* WaterUsage.swift */,
 				F1E51F162647869900AE6FC4 /* Transportation.swift */,
 				F1E51F1C2647936000AE6FC4 /* Start.swift */,
 				F1E51F1E2647A23800AE6FC4 /* ViewModifiers.swift */,
+				F1B7D456264835C400D6CC78 /* LocationInfo.swift */,
 			);
 			path = ClimateChangeApp;
 			sourceTree = "<group>";
@@ -243,8 +249,10 @@
 				F1E51EFE264765D800AE6FC4 /* ContentView.swift in Sources */,
 				F1E51EFC264765D800AE6FC4 /* ClimateChangeApp.swift in Sources */,
 				F1E51F152647868800AE6FC4 /* WaterUsage.swift in Sources */,
+				F1B7D4512648318A00D6CC78 /* Icon.swift in Sources */,
 				F1E51F112647840800AE6FC4 /* Resources.swift in Sources */,
 				F1E51F13264785A400AE6FC4 /* EnergyConservation.swift in Sources */,
+				F1B7D457264835C400D6CC78 /* LocationInfo.swift in Sources */,
 				F1E51F0B26476E0A00AE6FC4 /* CityStats.swift in Sources */,
 				F1E51F1F2647A23800AE6FC4 /* ViewModifiers.swift in Sources */,
 				F1E51F0F26476E4700AE6FC4 /* Maps.swift in Sources */,
