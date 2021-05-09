@@ -10,26 +10,27 @@ import GoogleMaps
 import SwiftUI
 
 struct Maps: UIViewRepresentable {
+//    var mapView : GMSMapView?
     @ObservedObject var locationManager = LocationManager()
     private let zoom: Float = 5.0
 
     func makeUIView(context: Self.Context) -> GMSMapView {
         
-        let camera = GMSCameraPosition.camera(withLatitude: locationManager.latitude, longitude: locationManager.latitude, zoom: zoom)
+        let camera = GMSCameraPosition.camera(withLatitude: 37.7749, longitude: -122.4194, zoom: zoom)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: locationManager.latitude, longitude: locationManager.longitude)
-        marker.title = "Your Current Location"
-        marker.snippet = "California"
-        marker.map = mapView
-        
+//        let marker = GMSMarker()
+//        marker.position = CLLocationCoordinate2D(latitude: locationManager.latitude, longitude: locationManager.longitude)
+//        marker.title = "Your Current Location"
+//        marker.snippet = "California"
+//        marker.map = mapView
+
         return mapView
     }
         
     func updateUIView(_ mapView: GMSMapView, context: Context) {
 //        let camera = GMSCameraPosition.camera(withLatitude: locationManager.latitude, longitude: locationManager.longitude, zoom: zoom)
 //        mapView.camera = camera
-        mapView.animate(toLocation: CLLocationCoordinate2D(latitude: locationManager.latitude, longitude: locationManager.longitude))
+//        mapView.animate(toLocation: CLLocationCoordinate2D(latitude: locationManager.latitude, longitude: locationManager.longitude))
     }
     
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBCE5E6672FBF59609342CA7 /* Pods_ClimateChangeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DA7F3D342EED0AD8950727 /* Pods_ClimateChangeApp.framework */; };
 		F1E51EFC264765D800AE6FC4 /* ClimateChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51EFB264765D800AE6FC4 /* ClimateChangeApp.swift */; };
 		F1E51EFE264765D800AE6FC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E51EFD264765D800AE6FC4 /* ContentView.swift */; };
 		F1E51F00264765DD00AE6FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E51EFF264765DD00AE6FC4 /* Assets.xcassets */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24DA7F3D342EED0AD8950727 /* Pods_ClimateChangeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateChangeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31789550686C3F6EB679CBAE /* Pods-ClimateChangeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateChangeApp.release.xcconfig"; path = "Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp.release.xcconfig"; sourceTree = "<group>"; };
 		BE6EF0CB0508D45529FA6324 /* Pods-ClimateChangeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateChangeApp.debug.xcconfig"; path = "Target Support Files/Pods-ClimateChangeApp/Pods-ClimateChangeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F1E51EF8264765D800AE6FC4 /* ClimateChangeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateChangeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBCE5E6672FBF59609342CA7 /* Pods_ClimateChangeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +69,6 @@
 		B1C940B3446A84E9BB7B614C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24DA7F3D342EED0AD8950727 /* Pods_ClimateChangeApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

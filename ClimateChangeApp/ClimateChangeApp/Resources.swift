@@ -13,8 +13,9 @@ struct Resources: View {
             VStack {
                     HStack {
                         Spacer()
-                        Image("Location")
-                        Image("Pencil")
+                        NavigationLink(destination: ContentView()) {
+                            Image("Location")
+                        }
                     }
                     .padding(.top)
                     .padding(.trailing, 30)

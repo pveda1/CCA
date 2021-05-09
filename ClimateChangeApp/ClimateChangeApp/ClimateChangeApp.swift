@@ -6,7 +6,7 @@
 //
 import CoreLocation
 import GoogleMaps
-//import GooglePlaces
+import GooglePlaces
 import SwiftUI
 
 //private var apiKey: String {
@@ -31,7 +31,7 @@ struct ClimateChangeAppApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-            StartView()
+            ContentView()
         }
     }
 }
@@ -39,7 +39,7 @@ struct ClimateChangeAppApp: App {
 class AppDelegate: NSObject, UIApplicationDelegate {
      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
          GMSServices.provideAPIKey(API_Key)
-         //GMSPlacesClient.provideAPIKey(API_Key)
+         GMSPlacesClient.provideAPIKey(API_Key)
          return true
      }
 }
