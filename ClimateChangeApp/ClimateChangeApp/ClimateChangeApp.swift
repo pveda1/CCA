@@ -24,7 +24,8 @@ import SwiftUI
 //  }
 //}
 
-let API_Key = "AIzaSyAbtyQjSS28Y2WCfr0gYGSitUfK7etS5jI"
+//let API_Key = "Your Api Key Here" and delete next line
+let API_Key = ProcessInfo.processInfo.environment["API_KEY"]!
 
 @main
 struct ClimateChangeAppApp: App {
