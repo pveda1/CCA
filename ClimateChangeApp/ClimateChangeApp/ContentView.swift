@@ -24,29 +24,25 @@ struct ContentView: View {
                 Spacer()
                     .frame(height: 30)
 
-//                HStack {
-//                    Spacer()
-//                        .frame(width: 350)
-//
-//                    Button(action: {
-//                        self.showMap.toggle()
-//                    }){
-//                        VStack {
-//                            Image("Pencil")
-//                        }
-//                    }
-//                    Button(action: {
-//                        self.showMap.toggle()
-//                    }){
-//                        VStack {
-//                            Image("Location")
-//                        }
-//                    }
-//
-//                    if showMap {
-//
-//                    }
-//
+                HStack {
+                    Spacer()
+                        .frame(width: 350)
+
+                    Button(action: {
+                        self.showMap.toggle()
+                    }){
+                        VStack {
+                            Image("Pencil")
+                        }
+                    }
+                    Button(action: {
+                        self.showMap.toggle()
+                    }){
+                        VStack {
+                            Image("Location")
+                        }
+                    }
+
                 }
                 .padding(.all)
                 .padding(.trailing, 30)
@@ -101,7 +97,7 @@ struct ContentView: View {
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
         
-    //}
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
