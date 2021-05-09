@@ -7,5 +7,6 @@ target 'ClimateChangeApp' do
 
   # Pods for ClimateChangeApp
   pod 'GoogleMaps', '4.2.0'
+  pod 'GooglePlaces', '4.2.0'
 
 end

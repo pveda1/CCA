@@ -11,7 +11,7 @@ import SwiftUI
 
 struct Maps: UIViewRepresentable {
     @ObservedObject var locationManager = LocationManager()
-    private let zoom: Float = 15.0
+    private let zoom: Float = 5.0
 
     func makeUIView(context: Self.Context) -> GMSMapView {
         
@@ -19,7 +19,7 @@ struct Maps: UIViewRepresentable {
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: locationManager.latitude, longitude: locationManager.longitude)
-        marker.title = "San Francisco"
+        marker.title = "Your Current Location"
         marker.snippet = "California"
         marker.map = mapView
         
