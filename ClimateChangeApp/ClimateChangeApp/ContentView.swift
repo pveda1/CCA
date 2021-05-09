@@ -15,6 +15,7 @@ import SwiftUI
 struct ContentView: View {
 //    @State private var toggleStates = ToggleStates()
 //    @State private var topExpanded: Bool = true
+    @State var showMap = true
     
     var body: some View {
         
@@ -23,18 +24,34 @@ struct ContentView: View {
                 Spacer()
                     .frame(height: 30)
 
-                HStack {
-                    Spacer()
-                    NavigationLink(destination: Resources()) {
-                        VStack {
-                            Image("Pencil")
-                        }
-                    }
-                    
+//                HStack {
+//                    Spacer()
+//                        .frame(width: 350)
+//
+//                    Button(action: {
+//                        self.showMap.toggle()
+//                    }){
+//                        VStack {
+//                            Image("Pencil")
+//                        }
+//                    }
+//                    Button(action: {
+//                        self.showMap.toggle()
+//                    }){
+//                        VStack {
+//                            Image("Location")
+//                        }
+//                    }
+//
+//                    if showMap {
+//
+//                    }
+//
                 }
-                .padding(.top)
+                .padding(.all)
                 .padding(.trailing, 30)
-                .frame(height: 0)
+                .frame(width: 360, height: 40)
+//                .border(Color.black, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                 
                 HStack {
                     VStack(alignment: .leading) {
@@ -84,7 +101,7 @@ struct ContentView: View {
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
         
-    }
+    //}
 }
 
 struct ContentView_Previews: PreviewProvider {
