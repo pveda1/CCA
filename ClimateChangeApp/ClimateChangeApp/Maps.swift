@@ -6,7 +6,7 @@
 //
 import CoreLocation
 import GoogleMaps
-import GooglePlaces
+//import GooglePlaces
 import SwiftUI
 
 struct Maps: UIViewRepresentable {
