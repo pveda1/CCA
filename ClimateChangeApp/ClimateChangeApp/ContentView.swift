@@ -28,13 +28,18 @@ struct ContentView: View {
                     Spacer()
                         .frame(width: 350)
 
-                    Button(action: {
-                        self.showMap.toggle()
-                    }){
-                        VStack {
+//                    Button(action: {
+//                        self.showMap.toggle()
+//                    }){
+//                        VStack {
+//                            Image("Pencil")
+//                        }
+//                    }
+                    NavigationLink(
+                        destination: Resources()) {
                             Image("Pencil")
                         }
-                    }
+                    
                     Button(action: {
                         self.showMap.toggle()
                     }){
